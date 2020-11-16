@@ -14,9 +14,10 @@ This repositroy includes projects created in my college courses. :mortar_board:
   - [Airplane Seating](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/Airplane%20seating.cpp)
   - [Webpage Generator](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/webpageGenerator.cpp)
 - Computers and Programming (CSC 211)
-  - <div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
+```diff
++ Green. C++
+```
+  - 
   -
   -
   -
