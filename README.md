@@ -1,7 +1,6 @@
 # CS-College-Courses
 Projects created in my college courses.
-hi
-
+<div> • Data Structures   ‣ <div>
 • Data Structures
     ‣
 • Intermediate Programming
