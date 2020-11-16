@@ -12,7 +12,7 @@ This repositroy includes projects created in my college courses. :mortar_board:
   - [To Do List](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/ToDoList.cpp)
   - [Cafe Billing System](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/cafe%20billing.cpp)
   - [Airplane Seating](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/Airplane%20seating.cpp)
-  - [Webpage Generator](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/webpageGenerator.cpp)
+  - [Webpage Generator](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/webpageGenerator.cpp)  
 - Computers and Programming (CSC 211) **Assembly**
   - 
   -
