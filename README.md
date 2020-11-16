@@ -3,8 +3,7 @@ This repositroy includes projects created in my college courses. :mortar_board:
 
 ## Table of Contents:  
 - Data Structures (CSC 326)
-[a relative link](ValasinaiteS_a01.cpp)
-  - Comparison of 5 sorting algorithms
+  - [Comparison of 5 sorting algorithms](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_p05.cpp)
   - Dynamic array stack with postfix evaluation
   - Big number class with addition and multiplication
   - Array bag class with union, intersection, and difference methods
