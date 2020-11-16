@@ -18,4 +18,4 @@ This repositroy includes projects created in my college courses. :mortar_board:
   - [Locating first non-zero value in an array](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/FindNonZero.asm)
   - [Reversing a string](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/revstr2.asm)
   - [Solving equation r=(x-y)-(z+3+x)-10-z](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/equationMul.asm)
-  - [Solving equation eax=(ebx20)/ecx](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/equationAddSub.asm)
+  - [Solving equation eax=(eb＊20)/ecx](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/equationAddSub.asm)
