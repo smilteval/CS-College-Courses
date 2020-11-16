@@ -1,2 +1,9 @@
 # CS-College-Courses
-All the projects and classwork from my college courses 
+Projects created in my college courses.
+
+• Data Structures
+    ‣
+• Intermediate Programming
+    ‣
+• Introduction to Programming
+    ‣
