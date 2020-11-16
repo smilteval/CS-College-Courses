@@ -1,9 +1,10 @@
 # CS-College-Courses
-Projects created in my college courses.  
+This repositroy includes all the projects created in my college courses.  
 
-• Data Structures  
+## Table of Contents:
+• Data Structures (CSC 326)  
     ‣  
-• Intermediate Programming  
+• Intermediate Programming (CSC 211) 
     ‣  
-• Introduction to Programming  
+• Introduction to Programming (CSC 126)
     ‣  
