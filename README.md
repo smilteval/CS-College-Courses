@@ -1,7 +1,7 @@
 # CS-College-Courses
 This repositroy includes projects created in my college courses. :mortar_board:  
 
-## Table of Contents:  
+## Table of Contents: ##
 - Data Structures (CSC 326) **C++**
   - [Comparison of 5 sorting algorithms](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_p05.cpp)
   - [Dynamic array stack with postfix evaluation](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a04.cpp)
