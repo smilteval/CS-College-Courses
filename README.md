@@ -9,4 +9,8 @@ This repositroy includes projects created in my college courses. :mortar_board:
   - [Array bag class with union, intersection, and difference methods](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a02.cpp)
   - [Safe dynamic array class](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a01.cpp)
 - Intermediate Programming (CSC 211) 
+  - [To Do List]()
+  - [Cafe Billing System]()
+  - [Airplane Seating]()
+  - [Webpage Generator]()
 - Introduction to Programming (CSC 126)
