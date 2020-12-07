@@ -3,6 +3,7 @@ This repositroy includes projects created in my college courses. :mortar_board:
 
 ## Table of Contents: ##
 - Data Structures (CSC 326) **C++**
+  - [Binary Search Tree class and merge heap algorithm](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a09.cpp)
   - [Binary Tree class with pre/in/post order traversals](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a08.cpp)
   - [Palindrome validation using stacks, queues, and deques](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a06.cpp)
   - [Comparison of 5 sorting algorithms](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_p05.cpp)
