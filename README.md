@@ -17,7 +17,7 @@ Object Oriented Software Design (CSC 330) <i>currently taking</i>
 
 Web Database Applications (CSC 226) <i>currently taking</i> 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/php32x32.png" alt="php">&nbsp;<img src="/icons/html32x32.png" alt="html">&nbsp;<img src="/icons/css32x32.png" alt="css">&nbsp;<img src="/icons/sql32x32.png" alt="sql">&nbsp;<img src="/icons/mysql32x32.png" alt="mysql">&nbsp; </p>
+<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/php32x32.png" alt="php">&nbsp;<img src="/icons/html32x32.png" alt="html">&nbsp;<img src="/icons/css32x32.png" alt="css">&nbsp;<img src="/icons/sql32x32.png" alt="sql">&nbsp;<img src="/icons/mysql32x32.png" alt="mysql">&nbsp;<img src="/icons/bootstrap32x32.png" alt="bootstrap"> </p>
 
 
 
