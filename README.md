@@ -6,24 +6,24 @@ Four spaces gap: &emsp;
 
 CS-College-Courses
 =================================================================================================================================================================================
-This repositroy includes projects created in my college courses. :mortar_board:  
-
+This repository includes projects created in my college courses. :mortar_board:  
+<br><br>
 
 Object Oriented Software Design (CSC 330) <i>currently taking</i> 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; </p> 
+<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/java32x32.png" alt="java">&nbsp;<img src="/icons/python32x32.png" alt="python"> </p> 
 
 
 
 Web Database Applications (CSC 226) <i>currently taking</i> 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; </p>
+<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/php32x32.png" alt="php">&nbsp;<img src="/icons/html32x32.png" alt="html">&nbsp;<img src="/icons/css32x32.png" alt="css">&nbsp;<img src="/icons/sql32x32.png" alt="sql">&nbsp;<img src="/icons/mysql32x32.png" alt="mysql">&nbsp; </p>
 
 
 
 Data Structures (CSC 326) 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; </p>
+<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/cpp32x32.png" alt="cpp"> </p>
 
 * [Binary Search Tree class and merge heap algorithm](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a09.cpp)
 * [Binary Tree class with pre/in/post order traversals](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a08.cpp)
@@ -38,7 +38,7 @@ Data Structures (CSC 326)
 
 Intermediate Programming (CSC 211) 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; </p>
+<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/cpp32x32.png" alt="cpp"> </p>
 
 * [To Do List](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/ToDoList.cpp)
 * [Cafe Billing System](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/cafe%20billing.cpp)
@@ -49,7 +49,7 @@ Intermediate Programming (CSC 211)
 
 Computers and Programming (CSC 220) 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; </p> 
+<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/asm32x32.png" alt="asm"> </p> 
 
 * [Encrypting and decrypting a message](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/encryption.asm)
 * [Locating first non-zero value in an array](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/FindNonZero.asm)
