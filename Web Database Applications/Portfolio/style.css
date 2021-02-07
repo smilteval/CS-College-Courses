@@ -14,16 +14,20 @@ body {
 .navigation-link {
   padding-bottom: 1rem;
   border: 3px solid transparent;
+  color: white;
 }
 .navigation-link:hover {
   text-decoration: none;
   border-bottom: 3px solid #e56b6f;
+  color: #e56b6f;
   transition: 0.3s ease;
 }
 
-.main-container {
+.full-screen-container {
   min-height: 100vh;
-  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-row {
@@ -32,14 +36,12 @@ body {
   align-items: center;
 }
 
-.main-row img {
-  width: auto;
-  height: 90vh;
-  border-radius: 30px;
-}
-
 .my-name {
   font-size: 4rem;
   color: #e56b6f;
   padding-top: 1rem;
+}
+
+img{
+  border-radius: 20px;
 }
