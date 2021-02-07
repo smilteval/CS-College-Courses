@@ -42,13 +42,16 @@ body {
   padding-top: 1rem;
 }
 
-.my-img{
+.my-img {
   border-radius: 20px;
 }
 
-.about-row{
+.about-row {
   background-color: white;
   border-radius: 20px;
   padding: 60px 50px;
   color: #6d597a;
+}
+.projects-container {
+  height: 100vh;
 }
