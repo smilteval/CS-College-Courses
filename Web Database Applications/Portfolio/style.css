@@ -71,6 +71,21 @@ body {
   color: #e6a694;
 }
 
+#about .btn{
+  background-color: #e6a694;
+  border: 2px solid #e6a694;
+  color: #2f4858;
+  
+}
+
+#about .btn:hover{
+  background-color: #2f4858;
+  border: 2px solid #2f4858;
+  color: #e6a694;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
 /* Projects page */
 
 .card {
@@ -98,6 +113,7 @@ body {
   border: 2px solid #e6a694;
   color: #2f4858;
   transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
 .card-title{
