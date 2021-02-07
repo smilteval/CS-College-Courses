@@ -1,31 +1,36 @@
 /* Color Palette:
-    #355070 - Y In Mn Blue
-    #6d597a - Chinese Violet
-    #b56576 - Rose Dust
-    #e56b6f - Candy Pink
-    #eaac8b - Tumbleweed
+    
 */
 html{scroll-behavior: smooth;}
 
 body {
-  background-color: #355070;
+  background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navigation-link {
-  padding-bottom: 1rem;
-  border: 3px solid transparent;
-  color: white;
+/* Navigation */
+
+.navigation{
+  background-color: #596E88;
 }
+
+.navigation-link {
+  padding-bottom: 10px;
+  border: 3px solid transparent;
+  color:white;
+}
+
 .navigation-link:hover {
   text-decoration: none;
-  border-bottom: 3px solid #e56b6f;
-  color: #e56b6f;
+  border-bottom: 3px solid #E6A694;
+  color: #E6A694;
   transition: 0.3s ease;
 }
 
-.full-screen-container {
-  min-height: 100vh;
+/* Homepage */
+
+.welcome{
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,22 +42,35 @@ body {
   align-items: center;
 }
 
+.welcome-text{
+  color: #2f4858;
+}
+
 .my-name {
   font-size: 4rem;
-  color: #e56b6f;
-  padding-top: 1rem;
+  color: #E6A694;
 }
 
 .my-img {
   border-radius: 20px;
 }
 
+/* About page */
+
+#about{
+  background-color: #E6A694;
+  padding: 10px;
+  height: 100vh;
+  margin: 100px 0;
+}
+
 .about-row {
-  background-color: white;
+  background-color: #596E88;
   border-radius: 20px;
   padding: 60px 50px;
-  color: #6d597a;
+  color: #fff;
 }
+
 .projects-container {
   height: 100vh;
 }
@@ -61,16 +79,12 @@ body {
   height: 13rem;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  padding: 20px 20px 0 20px;
 }
 
 .card{
   margin-top: 30px;
   border-radius: 20px;
-  border-bottom: 10px solid tomato;
-}
-
-.contact-link{
-  border: 3px solid tomato;
-  border-radius: 20px;
-  margin-left: 1rem;
+  border-bottom: 10px solid #e0afa0;
+  background-color: #f4f3ee;
 }
