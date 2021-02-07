@@ -5,6 +5,7 @@
     #e56b6f - Candy Pink
     #eaac8b - Tumbleweed
 */
+html{scroll-behavior: smooth;}
 
 body {
   background-color: #355070;
