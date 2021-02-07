@@ -30,7 +30,7 @@ body {
   align-items: center;
 }
 
-.main-row {
+.welcome-row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +42,13 @@ body {
   padding-top: 1rem;
 }
 
-img{
+.my-img{
   border-radius: 20px;
+}
+
+.about-row{
+  background-color: white;
+  border-radius: 20px;
+  padding: 60px 50px;
+  color: #6d597a;
 }
