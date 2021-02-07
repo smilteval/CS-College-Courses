@@ -6,17 +6,40 @@
     #eaac8b - Tumbleweed
 */
 
-body{
-    background-color: #355070;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #355070;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.navigation-link{
-padding-bottom: 10px;
- border: 3px solid transparent;
+.navigation-link {
+  padding-bottom: 1rem;
+  border: 3px solid transparent;
 }
-.navigation-link:hover{
-    text-decoration: none;
-    border-bottom: 3px solid #e56b6f ;
-    transition: 0.3s ease;
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #e56b6f;
+  transition: 0.3s ease;
+}
+
+.main-container {
+  min-height: 100vh;
+  padding-top: 3rem;
+}
+
+.main-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-row img {
+  width: auto;
+  height: 90vh;
+  border-radius: 30px;
+}
+
+.my-name {
+  font-size: 4rem;
+  color: #e56b6f;
+  padding-top: 1rem;
 }
