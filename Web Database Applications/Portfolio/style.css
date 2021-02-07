@@ -119,3 +119,22 @@ body {
   font-weight: bold;
   color: #e6a694;
 }
+
+/* Contact page */
+#contact{
+  background-color: #596e88;
+  height: 50vh;
+}
+
+#contact .btn{
+  background-color: #e6a694;
+  border: 2px solid #e6a694;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-title{
+  padding-left: 10px;
+  margin: 0;
+}
