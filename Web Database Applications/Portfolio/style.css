@@ -121,6 +121,7 @@ body {
 }
 
 /* Contact page */
+
 #contact {
   background-color: #596e88;
   height: 50vh;
@@ -151,4 +152,14 @@ body {
 .social-media-title {
   padding-left: 10px;
   margin: 0;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #596e88;
+}
+
+#footer a{
+  color:#e6a694;
 }
