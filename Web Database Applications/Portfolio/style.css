@@ -121,20 +121,32 @@ body {
 }
 
 /* Contact page */
-#contact{
+#contact {
   background-color: #596e88;
   height: 50vh;
 }
 
-#contact .btn{
+#contact .btn {
   background-color: #e6a694;
   border: 2px solid #e6a694;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px 0;
 }
 
-.social-media-title{
+#contact .btn:hover {
+  background-color: #2f4858;
+  border: 2px solid #2f4858;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+.social-media-title {
   padding-left: 10px;
   margin: 0;
 }
