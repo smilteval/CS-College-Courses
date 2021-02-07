@@ -67,6 +67,10 @@ body {
   color: #fff;
 }
 
+#about p {
+  font-size: 20px;
+}
+
 #about h1 {
   color: #e6a694;
 }
@@ -91,7 +95,7 @@ body {
   background-color: #2f4858;
   margin-bottom: 30px;
   border-radius: 20px;
- 
+
   box-shadow: 0 10px 5px #596e88;
   color: #fff;
 }
@@ -131,7 +135,7 @@ body {
 #contact .btn {
   background-color: #e6a694;
   border: 2px solid #e6a694;
-  color:#2f4858;
+  color: #2f4858;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,10 +162,10 @@ body {
 
 /* Footer */
 
-#footer{
+#footer {
   background-color: #596e88;
 }
 
-#footer a{
-  color:#e6a694;
+#footer a {
+  color: #e6a694;
 }
