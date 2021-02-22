@@ -29,6 +29,28 @@ body {
   align-items: center;
 }
 
+/* Cards by default */
+
+.card{
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.card img {
+  padding: 10px 10px 0 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card .btn:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
 /* Navigation */
 
 #navigation {
@@ -91,37 +113,54 @@ body {
 
 /* Projects page */
 
-.card {
+#projects .card {
   background-color: #2f4858;
-  margin-bottom: 30px;
-  border-radius: 20px;
-
   box-shadow: 0 10px 5px #596e88;
   color: #fff;
 }
 
-.card img {
-  padding: 10px 10px 0 10px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.card .btn {
+#projects .card .btn {
   background-color: #596e88;
   border: 2px solid #596e88;
   color: #fff;
 }
 
-.card .btn:hover {
+#projects .card .btn:hover {
   background-color: #e6a694;
   border: 2px solid #e6a694;
   color: #2f4858;
-  transform: scale(1.1);
-  transition: 0.3s ease;
 }
 
-.card-title {
-  font-weight: bold;
+#projects .card-title {
+  color: #e6a694;
+}
+
+/* Assignments page */
+
+#assignments{
+  background-color: #e6a694;
+  color:#2f4858;
+}
+
+#assignments .card {
+  background-color: #fff;
+  box-shadow: 0 10px 5px #91685d;
+  color: #2f4858;
+}
+
+#assignments .card .btn {
+  background-color: #596e88;
+  border: 2px solid #596e88;
+  color: #fff;
+}
+
+#assignments .card .btn:hover {
+  background-color: #2f4858;
+  border: 2px solid #2f4858;
+  color: #e6a694;
+}
+
+#assignments .card-title {
   color: #e6a694;
 }
 
