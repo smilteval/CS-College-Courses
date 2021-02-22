@@ -31,7 +31,7 @@ body {
 
 /* Cards by default */
 
-.card{
+.card {
   margin-bottom: 30px;
   border-radius: 20px;
 }
@@ -137,26 +137,27 @@ body {
 
 /* Assignments page */
 
-#assignments{
-  background-color: #e6a694;
+#assignments {
+  background-color: #2f4858;
+  color: white;
 }
 
 #assignments .card {
   background-color: #fff;
-  box-shadow: 0 10px 5px #91685d;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.4);
   color: #2f4858;
 }
 
 #assignments .card .btn {
-  background-color: #596e88;
-  border: 2px solid #596e88;
-  color: #fff;
+  background-color: #e6a694;
+  border: 2px solid #e6a694;
+  color: #2f4858;
 }
 
 #assignments .card .btn:hover {
-  background-color: #2f4858;
-  border: 2px solid #2f4858;
-  color: #e6a694;
+  background-color: #596e88;
+  border: 2px solid #596e88;
+  color: #fff;
 }
 
 #assignments .card-title {
@@ -167,6 +168,7 @@ body {
 
 #contact {
   background-color: #596e88;
+  color:#fff;
   height: 50vh;
 }
 
