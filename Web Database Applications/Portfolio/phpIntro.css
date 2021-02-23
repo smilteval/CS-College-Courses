@@ -76,7 +76,20 @@ body {
 }
 
 .question-answer {
-    border: 2px solid #737ba0;
-    font-size: 18px;
-    padding: 20px 30px;
+  border: 2px solid #737ba0;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+/* PHP code page */
+
+#code {
+  background-color: #737ba0;
+}
+
+#code p{
+    font-size: 20px;
+    color: white;
+    padding-left: 55px;
+    padding-right: 55px;
 }
