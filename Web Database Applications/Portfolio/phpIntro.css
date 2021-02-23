@@ -93,3 +93,18 @@ body {
     padding-left: 55px;
     padding-right: 55px;
 }
+
+#more-info{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#more-info a{
+    text-decoration: none;
+    color:#3a3e52;
+}
+
+#more-info a:hover{
+    text-decoration: underline;
+    color:#3a3e52;
+}
