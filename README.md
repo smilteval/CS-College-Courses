@@ -14,6 +14,7 @@ Object Oriented Software Design (CSC 330) <i>currently taking</i>
 <p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/java32x32.png" alt="java">&nbsp;<img src="/icons/python32x32.png" alt="python"> </p> 
 
 * [Julian Calendar](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/lab1/JulianCalendar.java)
+* [Numeric Analyzer](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/lab2/NumericAnalyzer.java)
 
 Web Database Applications (CSC 226) <i>currently taking</i> 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

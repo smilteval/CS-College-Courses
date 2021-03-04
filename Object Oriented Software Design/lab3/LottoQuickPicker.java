@@ -1,5 +1,6 @@
 /**
  * LAB 3 -  Lotto QuickPicker Game 
+ * @author Smilte Valasinaite
  */
 package edu.cuny.csi.csc330.lab3;
 
