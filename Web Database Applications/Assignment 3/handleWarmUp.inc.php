@@ -29,7 +29,7 @@ if (isset($_POST["submit"])) {
 
     //clear the form once it's submitted
     if (count($errors) == 0) {
-        header("Location: ../warmUp.php");
+        header("Location: warmUp.php");
         exit();
     }
 }
