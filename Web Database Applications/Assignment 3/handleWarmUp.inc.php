@@ -1,5 +1,3 @@
-<!-- Process data -->
-
 <?php
 
 function validateStr($str)
@@ -24,14 +22,12 @@ if (isset($_POST["submit"])) {
         $errors["password"] = "Missing password";
     }
 
-    //validating username to prevent malicious code
+    //validate username to prevent malicious code
     $username = validateStr($_POST["username"]);
 
     //clear the form once it's submitted
     if (count($errors) == 0) {
-        header("Location: warmUp.php");
+        header("Location: warmupForm.php");
         exit();
     }
 }
-
-?>

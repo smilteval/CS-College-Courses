@@ -1,5 +1,3 @@
-<!-- Process data -->
-
 <?php
 
 function validateStr($str)
@@ -18,14 +16,15 @@ $usernamePattern = "/[a-zA-Z]{1}_[a-zA-Z]+$/"; //first initial_lastname
 
 if (isset($_POST["submit"])) {
 
-    //validating username to prevent malicious code
+    //validate username to prevent malicious code
     $username = validateStr($_POST["username"]);
     $password = validateStr($_POST["password"]);
 
     //handle empty fields
     if (empty($_POST["username"])) {
         $errors["username"] = "Missing username";
-    } else {
+    } 
+    else {
         //validate format
         if (!preg_match($usernamePattern, $username)) {
             $errors["username"] = "Format is incorrect. Use first initial_lastname.";

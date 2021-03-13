@@ -1,5 +1,3 @@
-<!-- Process data -->
-
 <?php
 
 function validateStr($str)
@@ -51,5 +49,3 @@ if (isset($_POST["submit"])) {
         $errors["accountNotFound"] = "The user does not exist, please check your username and password";
     }
 }
-
-?>
