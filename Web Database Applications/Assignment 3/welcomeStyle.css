@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.vid-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.bgvid {
+  position: absolute;
+}
+.inner-container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: calc(50vh - 200px);
+  left: calc(50vw - 200px);
+  overflow: hidden;
+}
+.bgvid.inner {
+  top: calc(-50vh + 200px);
+  left: calc(-50vw + 200px);
+  filter: blur(10px);
+}
+.title {
+  color: white;
+  position: absolute;
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 50px;
+  top: 25vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.title h1 {
+  margin-left: 10vw;
+}
+.title span {
+  color: #2ec1cc;
+}
