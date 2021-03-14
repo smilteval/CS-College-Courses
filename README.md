@@ -11,7 +11,8 @@ This repository includes projects created in my college courses. :mortar_board:
 
 Object Oriented Software Design (CSC 330) <i>currently taking</i> 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/java32x32.png" alt="java">&nbsp;<img src="/icons/python32x32.png" alt="python"> </p> 
+&emsp; &ensp; Technologies used: &ensp; 
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="java"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="python"> 
 
 * [Julian Calendar](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/JulianCalendar.java)
 * [Numeric Analyzer](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/NumericAnalyzer.java)
@@ -19,14 +20,16 @@ Object Oriented Software Design (CSC 330) <i>currently taking</i>
 
 Web Database Applications (CSC 226) <i>currently taking</i> 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/php32x32.png" alt="php">&nbsp;<img src="/icons/html32x32.png" alt="html">&nbsp;<img src="/icons/css32x32.png" alt="css">&nbsp;<img src="/icons/sql32x32.png" alt="sql">&nbsp;<img src="/icons/mysql32x32.png" alt="mysql">&nbsp;<img src="/icons/bootstrap32x32.png" alt="bootstrap"> </p>
+&emsp; &ensp; Technologies used: &ensp; 
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="php"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap"><img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql">
 
 * [Static Portfolio Website](https://github.com/smilteval/CS-College-Courses/blob/main/Web%20Database%20Applications/Portfolio/portfolio.html)
 * [Login/Singup forms with validations](https://github.com/smilteval/CS-College-Courses/tree/main/Web%20Database%20Applications/Assignment%203)
 
 Data Structures (CSC 326) 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/cpp32x32.png" alt="cpp"> </p>
+&emsp; &ensp; Technologies used: &ensp; 
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="cpp">
 
 * [Binary Search Tree class and merge heap algorithm](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a09.cpp)
 * [Binary Tree class with pre/in/post order traversals](https://github.com/smilteval/CS-College-Courses/blob/main/Data-Structures/ValasinaiteS_a08.cpp)
@@ -41,21 +44,10 @@ Data Structures (CSC 326)
 
 Intermediate Programming (CSC 211) 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/cpp32x32.png" alt="cpp"> </p>
+&emsp; &ensp; Technologies used: &ensp; 
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="cpp">
 
 * [To Do List](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/ToDoList.cpp)
 * [Cafe Billing System](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/cafe%20billing.cpp)
 * [Airplane Seating](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/Airplane%20seating.cpp)
 * [Webpage Generator](https://github.com/smilteval/CS-College-Courses/blob/main/Intermediate-Programming/webpageGenerator.cpp)  
-
-
-
-Computers and Programming (CSC 220) 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p> &emsp; &ensp; Technologies used: &ensp; <img src="/icons/asm32x32.png" alt="asm"> </p> 
-
-* [Encrypting and decrypting a message](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/encryption.asm)
-* [Locating first non-zero value in an array](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/FindNonZero.asm)
-* [Reversing a string](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/revstr2.asm)
-* [Solving equation r=(x-y)-(z+3+x)-10-z](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/equationMul.asm)
-* [Solving equation eax=(eb＊20)/ecx](https://github.com/smilteval/CS-College-Courses/blob/main/Computers%20and%20Programming/equationAddSub.asm)
