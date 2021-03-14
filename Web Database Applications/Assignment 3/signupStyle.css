@@ -77,3 +77,10 @@ form a {
   padding-left: 35px;
   font-size: 12px;
 }
+
+.success-text {
+    color: rgb(106, 209, 74);
+    text-align: left;
+    padding-left: 35px;
+    font-size: 12px;
+  }
