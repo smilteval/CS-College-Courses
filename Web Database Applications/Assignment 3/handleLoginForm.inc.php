@@ -40,12 +40,13 @@ if (isset($_POST["submit"])) {
     //turn that content into an associative array
     $accounts = json_decode($accounts, true);
 
-    //check if our desired account is inside of the accounts array
-    if (in_array($matchingAccount, $accounts)) {
-        header("Location: welcome.php?username=$username");
-        exit();
-    } 
-    else if (count($errors) == 0) {
-        $errors["accountNotFound"] = "The user does not exist, please check your username and password";
+    if (count($errors) == 0) {
+        //check if our desired account is inside of the accounts array
+        if (in_array($matchingAccount, $accounts)) {
+            header("Location: welcome.php?username=$username");
+            exit();
+        } else {
+            $errors["accountNotFound"] = "The user does not exist, please try again.";
+        }
     }
 }

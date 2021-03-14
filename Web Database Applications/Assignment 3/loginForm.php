@@ -5,40 +5,43 @@ include "handleLoginForm.inc.php";
 <!DOCTYPE html>
 
 <head>
+  <link rel="stylesheet" href="loginStyle.css" />
   <title>Log-In</title>
-  <style>
-    .error-text {
-      color: red;
-      font-size: small;
-    }
-  </style>
 </head>
 
 <body>
-  <form action="loginForm.php" method="POST">
-    <p>
-      <label>Username:
-        <input type="text" name="username" value="<?php echo (isset($_POST['username'])) ? $_POST['username'] : '' ?>" />
+  <div class="vid-container">
+    <video class="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop>
+      <source src="https://static.videezy.com/system/resources/previews/000/007/313/original/Plexus.mp4">
+    </video>
+    <div class="inner-container">
+      <video class="bgvid inner" autoplay="autoplay" muted="muted" preload="auto" loop>
+        <source src="https://static.videezy.com/system/resources/previews/000/007/313/original/Plexus.mp4">
+      </video>
+      <form action="loginForm.php" method="POST">
+        <h2>Login</h2>
+        <p>
+          <input type="text" name="username" placeholder="Username" value="<?php echo (isset($_POST['username'])) ? $_POST['username'] : '' ?>" />
         <p class="error-text">
           <?php echo (isset($errors['username'])) ? $errors['username'] : ''; ?>
         </p>
-      </label>
-    </p>
-    <p>
-      <label>Password:
-        <input type="password" name="password" value="<?php echo (isset($_POST['password'])) ? $_POST['password'] : '' ?>" />
+        </p>
+        <p>
+          <input type="password" name="password" placeholder="Password" value="<?php echo (isset($_POST['password'])) ? $_POST['password'] : '' ?>" />
         <p class="error-text">
           <?php echo (isset($errors['password'])) ? $errors['password'] : ''; ?>
         </p>
-      </label>
-    </p>
-    <p>
-      <input type="submit" name="submit" value="Log-In" />
-    </p>
-    <p class="error-text">
-      <?php echo (isset($errors['accountNotFound'])) ? $errors['accountNotFound'] : ''; ?>
-    <p>
-  </form>
+        </p>
+        <p>
+          <button type="submit" name="submit">Login</button>
+        <p class="error-text">
+          <?php echo (isset($errors['accountNotFound'])) ? $errors['accountNotFound'] : ''; ?>
+        <p>
+        </p>
+        <p>Not a member? <a href="signupForm.php"><span>Sign Up</span></a></p>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -1,0 +1,79 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.vid-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.bgvid {
+  position: absolute;
+}
+.inner-container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: calc(50vh - 200px);
+  left: calc(50vw - 200px);
+  overflow: hidden;
+}
+.bgvid.inner {
+  top: calc(-50vh + 200px);
+  left: calc(-50vw + 200px);
+  filter: blur(10px);
+}
+form {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+  color: #fff;
+  background: rgba(160, 160, 160, 0.13);
+  padding: 30px 0px;
+}
+form h2 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+}
+form input {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgba(136, 136, 136, 0.2);
+  color: #fff;
+  border: 0;
+}
+form input:focus,
+form input:active,
+form button:focus,
+form button:active {
+  outline: none;
+}
+form button {
+  background: #2ec1cc;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  width: 330px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+}
+form p {
+  font-size: 14px;
+  text-align: center;
+}
+form a{
+    color:#2ec1cc;
+}
+
+.error-text{
+    color:rgb(255, 92, 92);
+    text-align: left;
+    padding-left: 35px;
+    font-size: 12px;
+}
