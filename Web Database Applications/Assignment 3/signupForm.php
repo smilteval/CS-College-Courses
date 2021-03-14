@@ -22,7 +22,7 @@ include 'handleSignupForm.inc.php';
   <form action="signupForm.php" method="POST">
     <p>
       <label>Username:
-        <input type="text" name="username" value="<?php echo (isset($_POST['username'])) ? $_POST['username'] : '' ?>" />
+        <input type="text" name="username" placeholder="Ex. f_lastname" value="<?php echo (isset($_POST['username'])) ? $_POST['username'] : '' ?>" />
         <p class="error-text">
           <?php echo (isset($errors['username'])) ? $errors['username'] : ''; ?>
         </p>
