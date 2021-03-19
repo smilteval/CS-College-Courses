@@ -2,6 +2,13 @@ package edu.cuny.csi.csc330.lab4;
 
 import java.util.Date;
 
+/**
+ * Model of a physical entity - LED lights
+ * 
+ * @author Smilte Valasinaite
+ *
+ */
+
 public class LEDLights {
 
 	// Static constants
