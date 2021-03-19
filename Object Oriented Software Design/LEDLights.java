@@ -37,56 +37,10 @@ public class LEDLights {
 	private boolean fadingRainbow;
 	private Date firstTimeOn;
 	private Date lastTimeOn;
-	
-	// Default constructor
 
 	public LEDLights() {
 		System.out.println("New Instance \n");
 	}
-
-	// Getters
-
-	public boolean isOn() {
-		return powerState;
-	}
-
-	public String getSelectedColor() {
-		return selectedColor;
-	}
-
-	public int getSelectedBrightness() {
-		return selectedBrightness;
-	}
-
-	public int getSelectedSpeed() {
-		return selectedSpeed;
-	}
-
-	public boolean isSolidStatic() {
-		return solidStatic;
-	}
-
-	public boolean isFlashing() {
-		return flashing;
-	}
-
-	public boolean isJumpingRainbow() {
-		return jumpingRainbow;
-	}
-
-	public boolean FadingRainbow() {
-		return fadingRainbow;
-	}
-
-	public Date getFirstTimeOn() {
-		return firstTimeOn;
-	}
-
-	public Date getLastTimeOn() {
-		return lastTimeOn;
-	}
-	
-	// Setters
 
 	public void setSelectedColor(String selectedColor) {
 		// check if the color is available and if it is, change it and switch to solid static mode
@@ -97,30 +51,6 @@ public class LEDLights {
 		else {
 			System.out.println("The color you selected is not available. Please try another one.");
 		}
-	}
-
-	public void setSelectedBrightness(int selectedBrightness) {
-		this.selectedBrightness = selectedBrightness;
-	}
-
-	public void setSelectedSpeed(int selectedSpeed) {
-		this.selectedSpeed = selectedSpeed;
-	}
-
-	public void setSolidStatic(boolean solidStatic) {
-		this.solidStatic = solidStatic;
-	}
-
-	public void setFlashing(boolean flashing) {
-		this.flashing = flashing;
-	}
-
-	public void setJumpingRainbow(boolean jumpingRainbow) {
-		this.jumpingRainbow = jumpingRainbow;
-	}
-
-	public void setFadingRainbow(boolean fadingRainbow) {
-		this.fadingRainbow = fadingRainbow;
 	}
 
 	// Public Methods
@@ -258,7 +188,7 @@ public class LEDLights {
 				+ ", firstTimeOn=" + firstTimeOn + ", lastTimeOn=" + lastTimeOn + "]";
 	}
 	
-	// Helper Methods
+	// Helper Private Methods
 
 	// Check if a color is available
 
