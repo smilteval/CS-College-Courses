@@ -17,6 +17,8 @@ Object Oriented Software Design (CSC 330) <i>currently taking</i>
 * [Julian Calendar](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/JulianCalendar.java)
 * [Numeric Analyzer](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/NumericAnalyzer.java)
 * [Lotto Quick Picker](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/LottoQuickPicker.java)
+* [LED Lights Model](https://github.com/smilteval/CS-College-Courses/blob/main/Object%20Oriented%20Software%20Design/LEDLights.java)
+* [Random Walker](https://github.com/smilteval/CS-College-Courses/tree/main/Object%20Oriented%20Software%20Design/RandomWalk)
 
 Web Database Applications (CSC 226) <i>currently taking</i> 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
