@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Welcome page */
+  
+  #welcome {
+    background: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  
+  .welcome-row {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px #050e41;
+  }
+  
+  .welcome-title {
+    color: #050e41;
+    font-size: 5rem;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    background-color: #48569c;
+    border: #48569c;
+  }
+  
+  .btn:hover {
+    font-size: 1rem;
+    background-color: #050e41;
+    border: #050e41;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
+  
+  /* Info about databases page*/
+  
+  .question {
+    margin-bottom: 30px;
+  }
+
+  .question1{
+    margin-top: 500px;
+  }
+  
+  .question-title {
+    background-color: #48569c;
+    padding: 10px 15px;
+    margin-bottom: 0;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .question-answer {
+    border: 2px solid #48569c;
+    font-size: 18px;
+    padding: 20px 30px;
+  }

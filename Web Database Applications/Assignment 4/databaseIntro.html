@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="databaseIntro.css" />
+
+    <title>Questions about databases</title>
+  </head>
+  <body>
+    <!-- Welcome -->
+
+    <div id="welcome" class="page">
+      <div class="container welcome-row">
+        <h1 class="welcome-title">Introduction to Databases</h1>
+        <a href="#info" class="pl-5 pr-5 pt-3 pb-3 mt-3 btn btn-primary"
+          >Learn More</a
+        >
+      </div>
+    </div>
+
+    <!-- Info about PHP -->
+
+    <div id="info" class="page">
+      <div class="container">
+        <div class="question question1">
+          <h4 class="question-title">
+            What is a database? Why would we implement it in our system/website?
+          </h4>
+          <div class="question-answer">
+            <p>
+              <b>Database</b> is an organized collection of structured data to make
+              it easily accessible, manageable and update. In simple words, you
+              can say, a database in a place where the data is stored.
+            </p>
+            <p>
+              We would use it in our website if we wanted to store some
+              information permanently so that we could access it later on. For
+              example, storing records about products, user login information,
+              comments, posts etc.
+            </p>
+          </div>
+        </div>
+
+        <div class="question">
+          <h4 class="question-title">
+            What is the advantage of using a relational database management
+            system?
+          </h4>
+          <ul class="question-answer">
+            <li>
+              <b>Simple Model</b> - does not require any complex structuring or
+              querying processes
+            </li>
+            <li>
+              <b>Data Accuracy</b> - there can be multiple tables related to one
+              another with the use of a primary key and foreign key concepts.
+              This makes the data to be non-repetitive.
+            </li>
+            <li>
+              <b>Easy Access to Data</b> - Anyone who accesses the data can
+              query any table in the relational database. Using join queries and
+              conditional statements one can combine all or any number of
+              related tables in order to fetch the required data. Resulting data
+              can be modified based on the values from any column, on any number
+              of columns, which permits the user to effortlessly recover the
+              relevant data as the result.
+            </li>
+            <li>
+              <b>Data Integrity</b> - relational reliability amongst the tables
+              in the database helps in avoiding the records from being
+              imperfect, isolated or unrelated.
+            </li>
+            <li>
+              <b>Flexibility</b> - possesses qualities for leveling up,
+              expanding for bigger lengths, as it is endowed with a bendable
+              structure to accommodate the constantly shifting requirements.
+              This facilitates the increasing incoming amount of data, as well
+              as the update and deletes wherever required.
+            </li>
+            <li>
+              <b>High Security</b> - it is possible to make a few tables to be
+              tagged as confidential and others not. When a data analyst tries
+              to login with a username and password, the database can set
+              boundaries for their level of access, by providing admission only
+              to the tables that they are allowed to work on, depending on their
+              access level.
+            </li>
+          </ul>
+        </div>
+
+        <div class="question">
+          <h4 class="question-title">
+            List the different types of relations in a database.
+          </h4>
+          <ul class="question-answer">
+            <li>
+              <b>One-One Relationship</b> - 1 item in table A should apply only
+              to 1 item in table B.
+            </li>
+            <li>
+              <b>One-Many Relationship</b> - 1 item in table A can apply to many
+              items in table B.
+            </li>
+            <li>
+              <b>Many-Many Relationship</b> - many items in table A can apply to
+              many items in table B.
+            </li>
+          </ul>
+        </div>
+
+        <div class="question">
+          <h4 class="question-title">
+            Explain the difference between key, primary key and foreign key.
+          </h4>
+          <div class="question-answer">
+            <p>
+              <b>Keys</b> are attributes that help you to identify a row in a table. They allow you to find the relationship between two tables.
+            </p>
+            <p>
+              <b>Primary key</b> is a column or group of columns that uniquely identifies every row in the table of the relational database management system. It cannot be a duplicate, meaning the same value should not appear more than once in the table.
+            </p>
+            <p>
+              <b>Foreign key</b> is a column that creates a relationship between two tables. The purpose of the Foreign key is to maintain data integrity and allow navigation between two different instances of an entity. It acts as a cross-reference between two tables as it references the primary key of another table.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
