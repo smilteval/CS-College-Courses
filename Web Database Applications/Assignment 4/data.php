@@ -5,7 +5,7 @@ include_once "not_public/dbconnect.inc.php";
 <?php ////////////////////////////////////////////////////////////// Part 1
 
 $amount = 75000;
-$query1 = "SELECT * FROM customer WHERE credit_limit <= ?";
+$query1 = "SELECT * FROM CUSTOMER WHERE credit_limit <= ?";
 
 $stmt = $conn->prepare($query1);
 $stmt->bind_param("i", $amount);
@@ -46,7 +46,7 @@ echo "</table>";
 
 echo "<br><br>";
 
-$query2 = "SELECT DISTINCT part_num FROM part";
+$query2 = "SELECT DISTINCT part_num FROM PART";
 
 $stmt2 = $conn->prepare($query2);
 $stmt2->execute();
@@ -80,7 +80,7 @@ $parts = $result2->fetch_all(MYSQLI_ASSOC);
 if (isset($_POST["submit"])) {
 
     $name = $_POST["part"];
-    $query3 = "SELECT * FROM part WHERE part_num = ?";
+    $query3 = "SELECT * FROM PART WHERE part_num = ?";
 
     $stmt3 = $conn->prepare($query3);
     $stmt3->bind_param("s", $name);
