@@ -12,8 +12,8 @@ import javax.swing.*;
 public class Listing extends JFrame implements ActionListener {
 
 	JPanel panel, buttonPanel, errorPanel, successPanel;
-	JLabel address, city, state, zipcode, value, sqft, schools, successMsg;
-	JTextField addressText, cityText, stateText, zipcodeText, valueText,sqftText, schoolsText;
+	JLabel address, city, state, zipcode, houseValue, rentValue, sqft, schools, successMsg;
+	JTextField addressText, cityText, stateText, zipcodeText, houseValueText, rentValueText, sqftText, schoolsText;
 	JButton submitButton;
 	
 	public Listing() { //create UI
@@ -34,9 +34,13 @@ public class Listing extends JFrame implements ActionListener {
 		zipcode.setText("     Zipcode:");
 		zipcodeText = new JTextField();
 		
-		value = new JLabel();
-		value.setText("     House Value:");
-		valueText = new JTextField();
+		houseValue = new JLabel();
+		houseValue.setText("     House Value:");
+		houseValueText = new JTextField();
+		
+		rentValue = new JLabel();
+		rentValue.setText("     Rent Value:");
+		rentValueText = new JTextField();
 		
 		sqft = new JLabel();
 		sqft.setText("     Sqft:"); 
@@ -61,8 +65,10 @@ public class Listing extends JFrame implements ActionListener {
 		panel.add(stateText); 
 		panel.add(zipcode); 
 		panel.add(zipcodeText); 
-		panel.add(value); 
-		panel.add(valueText); 
+		panel.add(houseValue); 
+		panel.add(houseValueText); 
+		panel.add(rentValue); 
+		panel.add(rentValueText); 
 		panel.add(sqft); 
 		panel.add(sqftText); 
 		panel.add(schools); 
@@ -92,12 +98,13 @@ public class Listing extends JFrame implements ActionListener {
 		String city = cityText.getText();
 		String state = stateText.getText();
 		String zipcode = zipcodeText.getText();
-		String value = valueText.getText();
+		String houseValue = houseValueText.getText();
+		String rentValue = rentValueText.getText();
 		String sqft = sqftText.getText();
 		String schools = schoolsText.getText();
 		
 		//make sure that all fields are filled 
-		if(address.isEmpty() || city.isEmpty() || state.isEmpty() || zipcode.isEmpty() || value.isEmpty() || sqft.isEmpty() || schools.isEmpty()) {
+		if(address.isEmpty() || city.isEmpty() || state.isEmpty() || zipcode.isEmpty() || houseValue.isEmpty() || rentValue.isEmpty()|| sqft.isEmpty() || schools.isEmpty()) {
 			
 			//show error message if fields are empty
 			errorPanel = new JPanel();
@@ -107,7 +114,7 @@ public class Listing extends JFrame implements ActionListener {
 			try {
 				//send the input from text fields into the file.csv file
 				BufferedWriter csvOutput = new BufferedWriter(new FileWriter("src\\realty\\file.csv", true), ',');
-				csvOutput.write("\n"+id+","+address+","+city+","+state+","+zipcode+","+value+","+sqft+","+schools);
+				csvOutput.write("\n"+id+","+address+","+city+","+state+","+zipcode+","+houseValue+","+rentValue+","+sqft+","+schools);
 				csvOutput.close();
 				
 				//show success message if the listing was added successfully
